@@ -1,7 +1,0 @@
-interface,version,layer,freeze_date,dimension,code,locator,justification
-Model Context Protocol,2025-03-26,agent-to-tool,2026-11-02,1_action_authorization,P,"Security Considerations",Normative MUST to implement access controls with no mechanism or field defined
-Model Context Protocol,2025-03-26,agent-to-tool,2026-11-02,2_command_record,P,"Security Considerations",Client-side SHOULD to log tool usage; not required and no fields defined
-Model Context Protocol,2025-03-26,agent-to-tool,2026-11-02,3_refusal_vs_failure,N,"Error Handling",Policy denial and machine failure both returned as isError true with no distinguishing field
-Model Context Protocol,2025-03-26,agent-to-tool,2026-11-02,4_revocation_in_flight,incomplete,"Error Handling; Security Considerations",Tools document defines only timeouts; cancellation utility not yet retrieved
-Model Context Protocol,2025-03-26,agent-to-tool,2026-11-02,5_identity_binding,incomplete,"Calling Tools; Data Types",tools/call carries name and arguments only; authorization document not yet retrieved
-Model Context Protocol,2025-03-26,agent-to-tool,2026-11-02,6_record_integrity,N,"Security Considerations",No integrity property and no third-party access defined
