@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Datasheet: what laboratory automation control interfaces specify for authorization, audit and reconstructability"
+message: "If you use this coding frame or dataset, please cite it."
+type: dataset
+authors:
+  - family-names: Tran
+    given-names: John D.
+    name-suffix: PhD
+    affiliation: Porcupine Labs
+version: 0.1.0
+date-released: 2026-11-02
+license: CC-BY-4.0
+abstract: >-
+  A coding frame and accumulating dataset recording what publicly published
+  control interfaces for laboratory automation define for action-level
+  authorization, command records, the distinction between a policy refusal and
+  a mechanical failure, revocation in flight, identity binding, and record
+  integrity. Published at draft stage so the instrument can be criticized
+  before a population is coded against it.
+keywords:
+  - laboratory automation
+  - AI safety
+  - biosecurity
+  - specification review
+  - authorization
